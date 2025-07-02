@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    height: 100vh;  
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: red;
+}
+.all_counter{
+    display: flex;
+    gap: 30px;
+}
+.all_counter .single_counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #6E8E59;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.single_counter .card_top{
+    display: flex;
+    /* justify-content: space-between; */
+ }
+.single_counter .card_top input{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #FEF3E2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.single_counter .card_top button{
+    width: 60px;
+    height: 50px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #7AE2CF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.single_counter .box{
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAFAEA;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.single_counter .box h2{
+    font-size: 50px;
+}
